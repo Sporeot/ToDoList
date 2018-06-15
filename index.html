@@ -15,14 +15,29 @@
             </header>
         </div>
         <div id="main-body">
-            <form action="" class="todo">
-                <input type="text" name="new-todo" id="new-todo" placeholder="New Reminder">
-            </form>
+            <!-- Add new reminders/todo -->
+            <label for="new-reminder" class="reminders">Add Reminder:</label>
+            <input type="text" class="new-reminder">
+            <button>Add</button>
+
+            <!-- List of reminders/todo -->
             <ul class="list">
                 <!-- list or table? Look at best options -->
-                <li class="list">Date</li>
-                <li class="list">Item</li>
-                <li class="list">Complete?</li>
+                <li class="list">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="todo-item">Edit</label>
+                    <label for="delete-item">Delete</label>
+                </li>
+                <li class="list">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="todo-item">Edit</label>
+                    <label for="delete-item">Delete</label>
+                </li>
+                <li class="list">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="todo-item">Edit</label>
+                    <label for="delete-item">Delete</label>
+                </li>
             </ul>
         </div>
         <div id="footer">
